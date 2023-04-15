@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
+// issue https://youtrack.jetbrains.com/issue/KT-58005/K2-Unsupported-compile-time-value-BLOCK-for-Repeatable-annotations
 @Validated
 @RestController
 @RequestMapping(
